@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#menu{
+    background-color: #4C5071;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 80%;
+}
+
+#menu #options{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.traco{
+    width: 30px;
+    height: 4.5px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 1px;
+}
+
+#menu-user{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+#menu-user h1{
+    font-size: 15px;
+    color: rgb(94, 189, 226);
+    font-family: Raleway,sans-serif;
+}
+
+#menu-user span{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+#menu-user img{
+    width: 20px;
+}
